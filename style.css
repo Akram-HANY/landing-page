@@ -21,66 +21,69 @@ header {
 }
 .logo {
   width: 40px;
-
 }
-ul li{
-    display: inline-block;
+ul li {
+  display: inline-block;
 }
 
-ul li a{
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
 }
 /*content-style*/
-.content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    position: relative;
-    margin: auto;
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  position: relative;
+  margin: auto;
 }
-.content .text{
-    width: 40%;
-    color: #fff;
+.content .text {
+  width: 40%;
+  color: #fff;
 }
-.content .text h2{
-    font-size: 40px;
-    text-transform: uppercase;
+.content .text h2 {
+  font-size: 40px;
+  text-transform: uppercase;
 }
-.content .text p{
-    font-size: 18px;
-    margin: 20px 0;
+.content .text p {
+  font-size: 18px;
+  margin: 20px 0;
 }
-.content .text a{
-    text-decoration: none;
-    background: #fff;
-    color: #000;
-    padding: 8px 15px;
-    border-radius: 20px;
+.content .text a {
+  text-decoration: none;
+  background: #fff;
+  color: #000;
+  padding: 8px 15px;
+  transition: 0.3s ease;
+  border-radius: 20px;
 }
-.content .img{
-    width: 30%;
+.content .text a:hover {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
 }
-.content .img img{
-    width: 180px;
+.content .img {
+  width: 30%;
 }
-.icons{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-     display: flex;
-    flex-direction: row;
-    transform: translateX(-50%);
-    
+.content .img img {
+  width: 180px;
 }
-.icons img{
-    width: 40px;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
-
+.icons {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  display: flex;
+  flex-direction: row;
+  transform: translateX(-50%);
 }
-.icons img:hover{
-    transform: scale(1.2);
+.icons img {
+  width: 40px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.icons img:hover {
+  transform: scale(1.2);
 }
